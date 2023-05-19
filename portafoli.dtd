@@ -1,0 +1,17 @@
+<!ELEMENT projectes (img, cicle, modul, UF1, UF2, UF3)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img
+  src CDATA #REQUIRED
+  alt CDATA #IMPLIED>
+<!ELEMENT cicle (#PCDATA)>
+<!ELEMENT modul (#PCDATA)>
+<!ELEMENT UF1 (nomUF, hores, projecte)>
+<!ELEMENT nomUF (#PCDATA)>
+<!ELEMENT hores (#PCDATA)>
+<!ELEMENT projecte (cas1, projecte1, cas2, projecte2)>
+<!ELEMENT cas1 (#PCDATA)>
+<!ELEMENT projecte1 (img)>
+<!ELEMENT cas2 (#PCDATA)>
+<!ELEMENT projecte2 (img+)>
+<!ELEMENT UF2 (nomUF, hores, projecte)>
+<!ELEMENT UF3 (nomUF, hores, projecte)>

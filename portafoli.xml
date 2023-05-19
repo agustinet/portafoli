@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectes SYSTEM "portafoli.dtd">
+<?xml-stylesheet type="text/xsl" href="portafoli.xsl"?>
+<projectes>
+<img src="/imatges/logoCombinat.jpg" alt="Logo Combinat"/>
+	<cicle>ASIX Projectes</cicle>
+		<modul>M4</modul>
+		    <UF1>
+                <nomUF>UF1: Programació amb XML	</nomUF>
+                <hores>45</hores>
+                <projecte>
+                    <cas1>Reconeixement de les característiques de llenguatges de marques</cas1>
+                        <projecte1>
+                        <img src="/imatges/image.png" alt="Pagina web"/>
+                        </projecte1>
+                    <cas2>Utilització de llenguatges de marques en entorns web</cas2>
+                        <projecte2>
+                        <img src="/imatges/xml.png" alt="Codi XML"/>
+                        <img src="/imatges/dtd.png" alt="Codi DTD"/>
+                        </projecte2>
+                </projecte>
+            </UF1>
+            <UF2>
+                <nomUF>UF2: Àmbits d'aplicació de l'XML</nomUF>
+                <hores>27</hores>
+                <projecte>
+                    <cas1>Emmagatzematge d’informació</cas1>
+                        <projecte1>
+                        <img src="/imatges/xquery.png" alt="Consulta"/>
+                        </projecte1>
+                    <cas2>Transformació XML</cas2>
+                        <projecte2>
+                        <img src="/imatges/xsl.png" alt="Codi XSL"/>
+                        <img src="/imatges/portafoli.png" alt="Portafoli"/>
+                        </projecte2>
+                </projecte>
+            </UF2>
+            <UF3>
+                <nomUF>UF3: Sistmes de Gestió d'informació empresarial</nomUF>
+                <hores>27</hores>
+                <projecte>
+                    <cas1>Eines BI (Business Intelligence Intel·ligència de negoci)</cas1>
+                    <projecte1>
+                    <img src="/imatges/dolibar.png" alt="Dolibar"/>
+                    </projecte1>
+                </projecte>
+            </UF3>
+	</projectes>

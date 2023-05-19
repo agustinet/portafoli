@@ -1,0 +1,189 @@
+/* Estil per al cos de la pàgina */
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+	color: #333;
+}
+
+/* Estils per a la capçalera */
+header {
+	background-color: #2e2e2e;
+	color: #fff;
+	padding: 20px;
+	padding-left: 20%;
+}
+body{
+	background-color: salmon;
+}
+img {
+	max-width: 15%;
+	margin-left: 80%;
+	border-radius: 2%;
+}
+  
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Estils per al contingut principal */
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+}
+#foto1{
+	max-width: 50%;
+	margin-left: 30%;
+	padding-bottom: 3%;
+}
+#foto2{
+	max-width: 50%;
+	margin-left: 40%;
+}
+#foto3{
+	max-width: 50%;
+	margin-left:30%;
+	padding-bottom: 3%;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.foto4 {
+    max-width: 40%;
+	height: 50%;
+    margin-right: 0%;
+	margin-left: 7%;
+	margin-top: 1%;
+}
+#foto5{
+	max-width: 50%;
+	margin-left: 30%;
+}
+h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #2e2e2e;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #2e2e2e;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+	color: #555;
+}
+
+/* Estils per al peu de pàgina */
+footer {
+	background-color: #2e2e2e;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	color: #e2e2e2;
+}
+
+@media screen and (max-width: 600px){	
+	header {
+		padding-left: 10%;
+	}
+
+	body{
+		background-color: salmon;
+	}
+	section b{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	  }
+	img {
+		max-width: 30%;
+		margin-left: 60%;
+	}
+
+	#foto1 {
+		max-width: 80%;
+    	margin-left: 10%;
+    	padding-top: 3%;
+		padding-bottom: 5%;
+
+	}
+
+	#foto2 {
+		max-width: 80%;
+		margin-left: 15%;
+		padding-top: 3%;
+	}
+	.images {
+		flex-wrap: wrap;
+	  }
+	#foto3 {
+		max-width: 100%;
+		margin-left: 0%;
+		margin-top: 3%;
+		margin-bottom: 5%;
+	}
+
+	.foto4 {
+		max-width: 100%;
+		height: auto;
+		margin-right: 0%;
+		margin-left: 0%;
+		margin-top: 3%;
+	}
+	#foto5 {
+		max-width: 80%;
+    	margin-left: 10%;
+    	padding-top: 5%;
+		padding-bottom: 5%;
+
+	}
+}
